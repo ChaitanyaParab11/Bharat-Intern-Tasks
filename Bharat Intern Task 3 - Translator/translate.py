@@ -9,6 +9,7 @@ root.title("Language Translator")
 root.config(bg = 'sky blue')
 
 Label(root, text = "LANGUAGE TRANSLATOR", font = "arial 20 bold", fg='black',    bg='sky blue').pack()
+Label(root, text="By Chaitanya Vijay Parab", font="arial 12", fg='black', bg='sky blue').pack()
 
 
 Input_text = Text(root,font = 'arial 14', height = 11, fg= 'black', bg='white', wrap = WORD, padx=5, pady=5, width = 30)
