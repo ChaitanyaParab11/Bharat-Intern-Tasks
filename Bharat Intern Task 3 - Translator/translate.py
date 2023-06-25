@@ -21,11 +21,11 @@ Output_text.place(x = 600 , y = 100)
 
 language = list(LANGUAGES.values())
 
-src_lang = ttk.Combobox(root, values= ('english','hindi','dutch','french'), width =22)
+src_lang = ttk.Combobox(root, values= ('English','Hindi','Dutch','French'), width =22)
 src_lang.place(x=20,y=60)
 src_lang.set('Select input language')
 
-dest_lang = ttk.Combobox(root, values= ('english','hindi','dutch','french'), width =22)
+dest_lang = ttk.Combobox(root, values= ('English','Hindi','Dutch','French'), width =22)
 dest_lang.place(x=810,y=60)
 dest_lang.set('Select output language')
 
